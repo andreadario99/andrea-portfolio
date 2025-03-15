@@ -1,15 +1,18 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const frontendSkills = [
-    "React",
-    "Vue",
-    "TypeScript",
-    "TailwindCSS",
-    "Svelte",
+  const technicalSkills = [
+    "ROS2",
+    "DDS",
+    "Zenoh",
+    "Wireshark",
+    "Git",
+    "Docker",
+    "Jetson",
+    "CI/CD",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const codingLanguages = ["C++", "Python", "C"];
 
   return (
     <section
@@ -17,7 +20,7 @@ export const About = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="max-w-3xl mx-auto px-4">
+        <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
             About Me
@@ -25,15 +28,17 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              Passionate software engineer in the automation field with expertise in ROS2 and DDS/Zenoh. When 
+              I'm not coding, I enjoy working out in the gym or play team sports (Football, Padel). I listen to podcasts 
+              while cooking dinner and a good book helps me unwind before sleeping. I'm always looking for new
+              challenges and opportunities to learn and grow.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Frontend</h3>
+                <h3 className="text-xl font-bold mb-4"> Technical Skills</h3>
                 <div className="flex flex-wrap gap-2">
-                  {frontendSkills.map((tech, key) => (
+                  {technicalSkills.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -47,9 +52,9 @@ export const About = () => {
               </div>
 
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4"> Backend</h3>
+                <h3 className="text-xl font-bold mb-4"> Coding Languages</h3>
                 <div className="flex flex-wrap gap-2">
-                  {backendSkills.map((tech, key) => (
+                  {codingLanguages.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -68,13 +73,21 @@ export const About = () => {
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <h4>
+                  <strong> M.S. in Automation Engineering </strong> - University of Bologna
+                  (2022-Jul 2025)
+                </h4>
+                <h4>
+                  <strong> M.S. Exchange Student </strong> - Katholieke Universiteit Leuven
+                  (2024)
+                </h4>
+                <h4>
+                  <strong> B.S. in Automation Engineering </strong> - University of Bologna
+                  (2018-2022)
+                </h4>
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
-                </li>
-                <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Relevant Coursework: Autonomous and Mobile Robotics, Image Processing and Computer Vision, Optimal Control,
+                   Artificial Neural Networks and Deep Learning...
                 </li>
               </ul>
             </div>
@@ -84,23 +97,24 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Software Engineer Intern @ Leonardo S.p.A.(Nov 2024 - Present){" "}
                   </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
+                  <li>
+                    Developed a benchmarking tool for different RMW performance comparison
+                  </li>
+                  <li>
+                    Created a ROS2 package for real-time traffic analysis
+                  </li>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Automation Engineer Intern @ MAKRO Labelling S.R.L. (Sep 2017 - Nov 2017){" "}
                   </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
+                  <li>
+                    Developed the mathematical model of the labelling machine’s carousel using Simulink
+                  </li>
                 </div>
               </div>
             </div>
