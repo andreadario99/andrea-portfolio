@@ -6,7 +6,7 @@ export const Skills = () => {
   const RoboticsMiddleware = ["DDS", "Zenoh", "ConnextDDS", "FastDDS", "CycloneDDS","Wireshark"];
   const ArtificialIntelligence = ["Sklearn", "TensorFlow", "PyTorch", "Pandas", "OpenCV", "Numpy", "MLP", "LSTM", "Hopfield Network", "CNN", "Deep Boltzmann Machines", "Transformers", "Generative Adversarial Network", "Variational Autoencoder"];
   const ProgrammingLanguages = ["Python", "C", "Bash", "C++/C#", "JavaScript", "HTML/CSS"];
-  const GameDevelopment = ["Unreal Engine", "Plotjuggler", "Matplotlib", "Tkinter"];
+  const Visualization = ["Plotjuggler", "Matplotlib", "Tkinter"];
 
   return (
     <section
@@ -80,11 +80,11 @@ export const Skills = () => {
               </div>
             </div>
 
-            {/* Game Dev */}
+            {/* Visual */}
             <div className="flex flex-col items-center text-center">
-              <h3 className="text-xl font-bold mb-4">Game Development & Visualization</h3>
+              <h3 className="text-xl font-bold mb-4">Visualization</h3>
               <div className="flex flex-wrap justify-center gap-2">
-                {GameDevelopment.map((tech, key) => (
+                {Visualization.map((tech, key) => (
                   <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 transition">
                     {tech}
                   </span>
