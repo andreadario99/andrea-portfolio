@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { Link } from "react-router-dom";
 
 export const Projects = () => {
   return (
@@ -30,7 +31,7 @@ export const Projects = () => {
                     {tech}
                   </span>
                 ))}
-              </div> 
+              </div>
             </div>
 
             <div
@@ -222,6 +223,31 @@ export const Projects = () => {
               </div>
             </div>
 
+          </div>
+          <div className="mt-16 flex flex-col items-center animate-[bounce_2.5s_infinite]">
+            <span className="text-lg mb-3 font-medium bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_8px_rgba(34,211,238,0.7)]">
+              Contacts
+            </span>
+            <div className="flex flex-col items-center leading-none">
+              {[...Array(2)].map((_, i) => (
+                <svg
+                  key={i}
+                  className="w-10 h-10 -mt-3 drop-shadow-[0_0_10px_rgba(34,211,238,0.6)]"
+                  fill="none"
+                  stroke="url(#grad)"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                >
+                  <defs>
+                    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stopColor="#3B82F6" /> {/* blue-500 */}
+                      <stop offset="100%" stopColor="#22D3EE" /> {/* cyan-400 */}
+                    </linearGradient>
+                  </defs>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              ))}
+            </div>
           </div>
         </div>
       </RevealOnScroll>

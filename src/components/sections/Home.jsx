@@ -17,21 +17,30 @@ export const Home = () => {
             My goal is to write robust and modular packages to improve the 
             autonomy stack of unnmanned vehicles.
           </p>
-          <div className="flex justify-center space-x-4">
-            <a
-              href="#projects"
-              className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
-            >
-              View Projects
-            </a>
-
-            <a
-              href="#contact"
-              className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 
-             hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] hover:bg-blue-500/10"
-            >
-              Contact Me
-            </a>
+          <div className="mt-16 flex flex-col items-center animate-[bounce_2.5s_infinite]">
+            <span className="text-lg mb-3 font-medium bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent drop-shadow-[0_0_8px_rgba(34,211,238,0.7)]">
+              About Me
+            </span>
+            <div className="flex flex-col items-center leading-none">
+              {[...Array(2)].map((_, i) => (
+                <svg
+                  key={i}
+                  className="w-10 h-10 -mt-3 drop-shadow-[0_0_10px_rgba(34,211,238,0.6)]"
+                  fill="none"
+                  stroke="url(#grad)"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                >
+                  <defs>
+                    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stopColor="#3B82F6" /> {/* blue-500 */}
+                      <stop offset="100%" stopColor="#22D3EE" /> {/* cyan-400 */}
+                    </linearGradient>
+                  </defs>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                </svg>
+              ))}
+            </div>
           </div>
         </div>
       </RevealOnScroll>
