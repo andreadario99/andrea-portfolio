@@ -32,12 +32,6 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              <Link
-                to="/sanitization"
-                className="inline-block mt-4 px-4 py-2 rounded-full text-sm font-medium text-white bg-blue-900 hover:brightness-150 transition-all"
-              >
-                View Project →
-              </Link>
             </div>
 
             <div
@@ -69,12 +63,6 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              <Link
-                to="/optimal_control"
-                className="inline-block mt-4 px-4 py-2 rounded-full text-sm font-medium text-white bg-blue-900 hover:brightness-150 transition-all"
-              >
-                View Project →
-              </Link>
             </div>
 
             <div
@@ -108,12 +96,6 @@ export const Projects = () => {
                   )
                 )}
               </div>
-              <Link
-                to="/rmw_benchmark"
-                className="inline-block mt-4 px-4 py-2 rounded-full text-sm font-medium text-white bg-blue-900 hover:brightness-150 transition-all"
-              >
-                View Project →
-              </Link>
             </div>
 
             <div
@@ -145,12 +127,6 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              <Link
-                to="/quality_control"
-                className="inline-block mt-4 px-4 py-2 rounded-full text-sm font-medium text-white bg-blue-900 hover:brightness-150 transition-all"
-              >
-                View Project →
-              </Link>
             </div>
 
             <div
@@ -183,12 +159,6 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              <Link
-                to="/traffic_analyser"
-                className="inline-block mt-4 px-4 py-2 rounded-full text-sm font-medium text-white bg-blue-900 hover:brightness-150 transition-all"
-              >
-                View Project →
-              </Link>
             </div>
             
             <div
@@ -220,12 +190,6 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              <Link
-                to="/neural_networks"
-                className="inline-block mt-4 px-4 py-2 rounded-full text-sm font-medium text-white bg-blue-900 hover:brightness-150 transition-all"
-              >
-                View Project →
-              </Link>
             </div>
 
             <div
@@ -257,12 +221,6 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              <Link
-                to="/embedded_programming"
-                className="inline-block mt-4 px-4 py-2 rounded-full text-sm font-medium text-white bg-blue-900 hover:brightness-150 transition-all"
-              >
-                View Project →
-              </Link>
             </div>
 
           </div>
