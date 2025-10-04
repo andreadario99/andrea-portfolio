@@ -12,7 +12,7 @@ export const Contact = () => {
           📬 Contacts
         </h2>
           <p className="text-gray-300 text-lg mb-4">
-            📧 Personal Email: <a href="mailto:andreadario_@hotmail.com" className="text-blue-400 hover:underline">andreadario_@hotmail.com</a>
+            📧 Personal Email: <a href="mailto:andreadario.work@gmail.com" className="text-blue-400 hover:underline">andreadario.work@gmail.com</a>
           </p>
           <p className="text-gray-300 text-lg mb-4">
             🎓 University Email: <a href="mailto:andrea.dario@studio.unibo.it" className="text-blue-400 hover:underline">andrea.dario@studio.unibo.it</a>
@@ -24,7 +24,7 @@ export const Contact = () => {
             💼 LinkedIn: <a href="https://www.linkedin.com/in/andrea-dario1999/" target="_blank" className="text-blue-400 hover:underline">https://www.linkedin.com/in/andrea-dario1999/</a>
           </p>
           <p className="text-gray-300 text-lg">
-            🌍 Location: Mantova, Italy
+            🌍 Location: Rome, Italy
           </p>
         </div>
       </RevealOnScroll>
