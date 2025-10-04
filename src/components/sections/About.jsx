@@ -63,7 +63,17 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer Intern @ Leonardo S.p.A.(Nov 2024 - Present){" "}
+                    Software Engineer | AizoOn @ Leonardo S.p.A.<br />(Sep 2025 - Present){" "}
+                  </h4>
+                  <li>
+                    Working as software engineer on an international aircraft program
+                  </li>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold">
+                    {" "}
+                    Software Engineer Intern @ Leonardo S.p.A.<br />(Nov 2024 - May 2025){" "}
                   </h4>
                   <li>
                     Developed a benchmarking tool for different RMW performance comparison
@@ -76,7 +86,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Automation Engineer Intern @ MAKRO Labelling S.R.L. (Sep 2017 - Nov 2017){" "}
+                    Automation Engineer Intern @ MAKRO Labelling S.R.L.<br />(Sep 2017 - Nov 2017){" "}
                   </h4>
                   <li>
                     Developed the mathematical model of the labelling machine’s carousel using Simulink
